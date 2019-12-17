@@ -24,10 +24,6 @@ const Meta = ({ site, title }) => {
           property: 'og:url',
           content: `${get(site, 'siteUrl')}/profile`,
         },
-        {
-          property: 'og:image',
-          content: `${get(site, 'siteUrl')}/img/profile.jpg`,
-        },
       ]}
     />
   )

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
+  "name": "english-translate",
+  "description": "",
   "version": "2.0.1",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "author": "",
   "dependencies": {
     "gatsby": "2.18.12",
     "gatsby-image": "2.2.36",

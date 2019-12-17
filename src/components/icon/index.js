@@ -17,19 +17,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import './style.scss'
 
-library.add(
-  faApple,
-  faAws,
-  faFacebook,
-  faGithub,
-  faHtml5,
-  faJs,
-  faNode,
-  faPhp,
-  faReact,
-  faTwitter,
-  faVuejs
-)
+library.add(faTwitter)
 
 const Icon = ({ name }) => (
   <div className="icon" title={name}>
