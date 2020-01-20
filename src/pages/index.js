@@ -4,7 +4,7 @@ import TwitterForm from 'components/form'
 
 const Homepage = () => {
   return (
-    <Layout location={location}>
+    <Layout location="homepage">
       <TwitterForm></TwitterForm>
     </Layout>
   )

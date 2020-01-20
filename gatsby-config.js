@@ -1,11 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: 'English Translate',
+    title: 'English-ize',
     description: 'An experiment',
     siteUrl: 'https://gatstrap.netlify.com'
   },
   pathPrefix: '/',
   plugins: [
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "english-ize-frontend",
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
